@@ -2,7 +2,7 @@
 #exit on error
 set -o errexit
 
-bingle install
+bundle install
 bundle exec rails assets:precompile
 bundle exec rails assets:clean
 
